@@ -17,3 +17,21 @@ svg path:hover {
     fill: #00739a;
     transition: 0.9s;
 }
+
+#loadMouse:hover {
+    animation: hideMouse 3s;
+}
+
+@keyframes hideMouse {
+    0% {
+        cursor: wait;
+    }
+
+    50% {
+        cursor: pointer;
+    }
+
+    90% {
+        cursor: none;
+    }
+}
