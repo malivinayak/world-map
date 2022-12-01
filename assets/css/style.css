@@ -16,5 +16,4 @@ svg path {
 svg path:hover {
     fill: #00739a;
     transition: 0.9s;
-    cursor: help;
 }
