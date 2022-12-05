@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #01171b;
+}
+
+svg path {
+    fill: #00394f;
+    stroke: #eee;
+    stroke-width: 0.65;
+}
+
+svg path:hover {
+    fill: #00739a;
+    transition: 0.9s;
+}
+
+#loadMouse:hover {
+    animation: hideMouse 3s;
+}
+
+@keyframes hideMouse {
+    0% {
+        cursor: wait;
+    }
+
+    50% {
+        cursor: pointer;
+    }
+
+    90% {
+        cursor: none;
+    }
+}
