@@ -7,3 +7,12 @@ options = {
     "outerHeight": 31
 };
 magicMouse(options);
+
+$(document).ready(function () {
+    var svgPaths = $("svg path");
+    svgPaths.click(function () {
+      var countryName = $(this).data("country");
+      alert("You clicked on " + countryName);
+    });
+  });
+  
